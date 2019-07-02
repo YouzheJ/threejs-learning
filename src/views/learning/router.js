@@ -8,5 +8,10 @@ export default {
             name: 'test1',
             component: () => import('./test1.vue'),
         },
+        {
+            path: 'test2',
+            name: 'test2',
+            component: () => import('./test2.vue'),
+        },
     ],
 }
