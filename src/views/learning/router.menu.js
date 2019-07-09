@@ -14,6 +14,10 @@ export default [
                 name: 'test3',
                 link: '/learning/test3',
             },
+            {
+                name: 'test4',
+                link: '/learning/test4',
+            },
         ]
     }
 ];

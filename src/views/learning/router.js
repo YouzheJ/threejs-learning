@@ -18,5 +18,10 @@ export default {
             name: 'test3',
             component: () => import('./test3.vue'),
         },
+        {
+            path: 'test4',
+            name: 'test4',
+            component: () => import('./test4.vue'),
+        },
     ],
 }
