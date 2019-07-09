@@ -1,21 +1,21 @@
 export default [
     {
-        name: 'class1',
+        name: '简单示例',
         children: [
             {
-                name: 'test1',
+                name: '基本场景',
                 link: '/learning/test1',
             },
             {
-                name: 'test2',
+                name: '材质',
                 link: '/learning/test2',
             },
             {
-                name: 'test3',
+                name: '简单动画',
                 link: '/learning/test3',
             },
             {
-                name: 'test4',
+                name: 'gui&resize',
                 link: '/learning/test4',
             },
         ]
