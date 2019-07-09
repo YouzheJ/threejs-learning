@@ -40,7 +40,7 @@ export default {
             const renderer = new THREE.WebGLRenderer();
             renderer.setClearColor(new THREE.Color(0xEEEEEE, 1.0));
             renderer.setSize(width, height);
-            renderer.shadowMapEnabled = true; // 开启阴影
+            renderer.shadowMap.enabled = true; // 开启阴影
 
             // 创建轴
             // const axes = new THREE.AxisHelper(20);
