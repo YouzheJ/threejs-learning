@@ -7,7 +7,7 @@
 
 <script>
 import * as THREE from 'three';
-import { Stats } from '../../plugins/stats';
+import { Stats } from '@/plugins/stats';
 
 export default {
     name: 'test1',

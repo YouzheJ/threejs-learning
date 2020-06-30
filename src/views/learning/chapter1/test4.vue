@@ -8,7 +8,7 @@
 <script>
 import * as THREE from 'three';
 import * as dat from 'dat.gui';
-import { Stats } from '../../plugins/stats';
+import { Stats } from '@/plugins/stats';
 
 export default {
     name: 'test1',

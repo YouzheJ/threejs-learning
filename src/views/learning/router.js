@@ -6,22 +6,22 @@ export default {
         {
             path: 'test1',
             name: 'test1',
-            component: () => import('./test1.vue'),
+            component: () => import('./chapter1/test1.vue'),
         },
         {
             path: 'test2',
             name: 'test2',
-            component: () => import('./test2.vue'),
+            component: () => import('./chapter1/test2.vue'),
         },
         {
             path: 'test3',
             name: 'test3',
-            component: () => import('./test3.vue'),
+            component: () => import('./chapter1/test3.vue'),
         },
         {
             path: 'test4',
             name: 'test4',
-            component: () => import('./test4.vue'),
+            component: () => import('./chapter1/test4.vue'),
         },
     ],
 }
